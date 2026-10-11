@@ -11,3 +11,8 @@
     find the real problem
     choose the right aws services
     explain the trade-offs
+
+    from these we will know
+    when to use them
+    why they fit
+    what trade-offs you are making
