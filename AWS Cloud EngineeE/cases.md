@@ -16,3 +16,15 @@
     when to use them
     why they fit
     what trade-offs you are making
+
+# decision Stack
+    1- Traffic
+    2- Compute
+    3- Data
+    4- Security
+    5- Cost
+    6- Monitor
+
+<img width="977" height="859" alt="image" src="https://github.com/user-attachments/assets/14a44239-3665-4fa6-a239-b85d45aa45d2" />
+
+<img width="1056" height="664" alt="image" src="https://github.com/user-attachments/assets/9c6bf1f0-319e-4d76-a992-f69174a049d7" />
