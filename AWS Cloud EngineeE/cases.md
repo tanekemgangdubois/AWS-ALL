@@ -7,3 +7,7 @@
 <img width="1136" height="708" alt="image" src="https://github.com/user-attachments/assets/2d3b860c-65c7-4c81-83ba-5eb3794d0a69" />
 
 # 1 single framework = Decision Stack
+    read cloud brief
+    find the real problem
+    choose the right aws services
+    explain the trade-offs
