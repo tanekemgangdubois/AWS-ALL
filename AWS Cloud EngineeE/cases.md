@@ -70,3 +70,10 @@
         it costs almost nothing at low traffic
         if something change easy to swap out one layer without rebuilding anything else
 <img width="1577" height="974" alt="image" src="https://github.com/user-attachments/assets/c521a6d6-147f-4c4a-b1d4-59d5fb46ee02" />
+
+<img width="1028" height="670" alt="image" src="https://github.com/user-attachments/assets/0574b2e5-f022-492e-a665-12416f39fe35" />
+
+<img width="1830" height="960" alt="image" src="https://github.com/user-attachments/assets/0145e9bc-caa1-42c0-8dbc-57f2a1fc7df5" />
+
+<img width="1041" height="662" alt="image" src="https://github.com/user-attachments/assets/e44a14f4-4b8b-4fee-9d81-7b4334f6d554" />
+<img width="1766" height="992" alt="image" src="https://github.com/user-attachments/assets/1afdf7d3-7d26-49e6-b86a-0b3ac9b42191" />
