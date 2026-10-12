@@ -35,4 +35,38 @@
 
 # 1-TRAFFIC
 
-<img width="1366" height="957" alt="image" src="https://github.com/user-attachments/assets/b3225061-1dbe-4273-98a0-918078d0b3f6" />
+<img width="1804" height="1012" alt="image" src="https://github.com/user-attachments/assets/36f0a508-0f5d-459b-a579-7ba0ca68131c" />
+
+# 2-COMPUTE
+<img width="1725" height="949" alt="image" src="https://github.com/user-attachments/assets/f0c153e1-25bb-4893-b64d-4dbe2090e399" />
+
+# 3-DATA
+<img width="1830" height="1023" alt="image" src="https://github.com/user-attachments/assets/28ea37e7-47e8-460e-a53f-3bc0c81bce4c" />
+
+# 4-SECURITY
+
+# 5-COST
+
+# 6-MONITOR
+
+# FINAL
+        -1-customer type the url and its device does a DNS LOOKUP free resolves the domain
+        and points them to cloudfront. this happens once
+        after this its device knows where to go
+        2-the request arrives at cloudfront , it checks if it is a real user or maliciious
+        cloudfront looks for the app files in a nearest edge location.if they are cached there
+        it serves them instantly.if not , it pulls them fresh from S3 and serves them to the user.
+        and caches a copy for the next person.
+        the app loads on the screen , the user fills in the email and password and sign up
+        3- the device sends request to API GATEWAY, WHICH IS PART OF THE BACKEND THAT HAS public@
+        API gateway identity that as a signal request and triggers the right lambda function
+        4- Lambda runs a signup code .it validates the infos , creates the account,saves user data to dynamoDB.
+        Lmabda's IM key card only allows it to write to dynamodb.It can't touch S3, and cant access anything else.
+        5- dynamodb confirms that data is saved, lamdba sends confirmation response back through the API gateway
+        to the user device, account created, signed up across the bottom.
+        6- CloudWatch has been collecting data from every service
+        
+        it scales automatically
+        it costs almost nothing at low traffic
+        if something change easy to swap out one layer without rebuilding anything else
+<img width="1577" height="974" alt="image" src="https://github.com/user-attachments/assets/c521a6d6-147f-4c4a-b1d4-59d5fb46ee02" />
